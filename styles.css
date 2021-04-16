@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Ropa Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    width: 38rem;
+    margin: 0 auto;
+}
+
+header .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+header {
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.875rem;
+    color: #777;
+}
+
+header .logo h6 {
+    width: 40%;
+    color: #AAA;
+    margin-left: 0.25rem;
+    font-weight: 400;
+}
+
+header .menu-hamburger button {
+    color: #AAA;
+    font-weight: bold;
+    background-color: #FFF;
+    width: 1.125rem;
+    height: 0.75rem;
+}
+
+/*=== MAIN ===*/
+
+main section.carrossel {
+    position: relative;
+}
+
+main .carrossel figure {
+    margin-top: 1.25rem;
+    width: 100%;
+    height: 16.25rem;
+    position: relative;
+}
+
+main .carrossel figure img {
+    width: 100%;
+    height: 100%;
+}
+
+main .carrossel .buttons {
+    width: 100%;
+    padding: 0 1rem;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .carrossel .buttons button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .carrossel .buttons button img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+/*=== CARD ===*/
+
+main .examples {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .examples .card {
+    width: 16rem;
+    height: 15.125rem;
+    background-color: #EEE;
+}
+
+main .examples .card .card-content {
+    padding: 0.5rem;
+}
+
+main .examples .card .card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+main .examples .card .card-info span:nth-child(1) {
+    font-size: 1.5rem;
+    color: #888888;
+}
+
+main .examples .card .card-info span:nth-child(2) {
+    background-color: #51D275;
+    color: #FFF;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+}
+
+main .examples .card:nth-child(2) .card-info span:nth-child(2) {
+    background-color: #DC9730;
+    color: #FFF;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+}
+
+main .examples .card p {
+    margin-top: 0.5rem;
+    font-size: 0.625rem;
+    color: #555;
+    text-align: justify;
+}
+
+/*=== STYLE TYPES ===*/
+
+main .styles-types .box-three-images {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    
+}
+
+main .styles-types .p-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+main .styles-types .p-title p {
+    color: #888888;
+    font-size: 1.5rem;
+}
+
+main .styles-types .box-three-images:nth-child(2),
+main .styles-types .box-three-images:nth-child(3) {
+    margin-bottom: 0.75rem;
+}
+
+main .styles-types .box-three-images p {
+    text-shadow: 8px 8px 20px rgba(0, 0, 0, 1);
+    font-size: 1.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #333;
+    margin-top: 3.5rem;
+    padding: 2.5rem 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-content figure {
+    height: 10.1875rem;
+}
+
+footer .footer-content .sites-info {
+    width: 11rem;
+    color: white;
+}
+
+footer .footer-content .sites-info p {
+    line-height: 1.75rem;
+    font-size: 0.75rem;
+}
+
+footer .footer-content .sites-info .social-medias ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer .footer-content .sites-info .social-medias ul li {
+    margin-right: 1rem;
+}
+
