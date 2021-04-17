@@ -63,19 +63,19 @@ main section.carrossel {
     position: relative;
 }
 
-main .carrossel figure {
+main section.carrossel figure {
     margin-top: 1.25rem;
     width: 100%;
     height: 16.25rem;
     position: relative;
 }
 
-main .carrossel figure img {
+main section.carrossel figure img {
     width: 100%;
     height: 100%;
 }
 
-main .carrossel .buttons {
+main section.carrossel .buttons {
     width: 100%;
     padding: 0 1rem;
     position: absolute;
@@ -84,7 +84,7 @@ main .carrossel .buttons {
     justify-content: space-between;
 }
 
-main .carrossel .buttons button {
+main section.carrossel .buttons button {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -93,56 +93,56 @@ main .carrossel .buttons button {
     justify-content: center;
 }
 
-main .carrossel .buttons button img {
+main section.carrossel .buttons button img {
     width: 1.25rem;
     height: 1.25rem;
 }
 
 /*=== CARD ===*/
 
-main .examples {
+main section.examples {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
 
-main .examples .card {
+main section.examples .card {
     width: 16rem;
     height: 15.125rem;
     background-color: #EEE;
 }
 
-main .examples .card .card-content {
+main section.examples .card .card-content {
     padding: 0.5rem;
 }
 
-main .examples .card .card-info {
+main section.examples .card .card-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
     
 }
 
-main .examples .card .card-info span:nth-child(1) {
+main section.examples .card .card-info span:nth-child(1) {
     font-size: 1.5rem;
     color: #888888;
 }
 
-main .examples .card .card-info span:nth-child(2) {
+main section.examples .card .card-info span:nth-child(2) {
     background-color: #51D275;
     color: #FFF;
     padding: 0.25rem 1rem;
     border-radius: 1rem;
 }
 
-main .examples .card:nth-child(2) .card-info span:nth-child(2) {
+main section.examples .card:nth-child(2) .card-info span:nth-child(2) {
     background-color: #DC9730;
     color: #FFF;
     padding: 0.25rem 1rem;
     border-radius: 1rem;
 }
 
-main .examples .card p {
+main section.examples .card p {
     margin-top: 0.5rem;
     font-size: 0.625rem;
     color: #555;
@@ -151,7 +151,7 @@ main .examples .card p {
 
 /*=== STYLE TYPES ===*/
 
-main .styles-types .box-three-images {
+main section.styles-types .box-three-images {
     height: 5rem;
     display: flex;
     justify-content: center;
@@ -161,7 +161,7 @@ main .styles-types .box-three-images {
     
 }
 
-main .styles-types .p-title {
+main section.styles-types .p-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,17 +169,17 @@ main .styles-types .p-title {
     margin-top: 2rem;
 }
 
-main .styles-types .p-title p {
+main section.styles-types .p-title p {
     color: #888888;
     font-size: 1.5rem;
 }
 
-main .styles-types .box-three-images:nth-child(2),
-main .styles-types .box-three-images:nth-child(3) {
+main section.styles-types .box-three-images:nth-child(2),
+main section.styles-types .box-three-images:nth-child(3) {
     margin-bottom: 0.75rem;
 }
 
-main .styles-types .box-three-images p {
+main section.styles-types .box-three-images p {
     text-shadow: 8px 8px 20px rgba(0, 0, 0, 1);
     font-size: 1.5rem;
 }
