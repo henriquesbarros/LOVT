@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,15 @@
     <title>LOVT</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="light">
     <header>
         <div class="container">
             <div class="box">
                 <div class="logo">
-                    <h1>LOVT</h1>
+                    <h1 id="logo">LOVT</h1>
                     <h6>You love, your loft!</h6>
                 </div>
+                <button onclick="darkMode()">Dark Mode</button>
                 <div class="menu-hamburger">
                     <button>☰</button>
                 </div>
@@ -121,5 +122,23 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <form action="">
+                <fieldset>
+                    <label>Nome</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                </fieldset>
+                <fieldset>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email">
+                </fieldset>
+            </form>
+            <button onclick="closeModal()">Fechar</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
